@@ -11,20 +11,20 @@ pandas_to_s3_csv(
     bucket_name=S3_CONFIGS["minio"]["bucket"],
 )
 
-pandas_to_s3_csv(
-    df=df,
-    conn_params=S3_CONFIGS["selectel"],
-    bucket_name=S3_CONFIGS["selectel"]["bucket"],
-)
+# pandas_to_s3_csv(
+#     df=df,
+#     conn_params=S3_CONFIGS["selectel"],
+#     bucket_name=S3_CONFIGS["selectel"]["bucket"],
+# )
 
-pandas_to_s3_csv(
-    df=df,
-    conn_params=S3_CONFIGS["vk"],
-    bucket_name=S3_CONFIGS["vk"]["bucket"],
-)
+# pandas_to_s3_csv(
+#     df=df,
+#     conn_params=S3_CONFIGS["vk"],
+#     bucket_name=S3_CONFIGS["vk"]["bucket"],
+# )
 
-pandas_to_s3_csv(
-    df=df,
-    conn_params=S3_CONFIGS["aws"],
-    bucket_name=S3_CONFIGS["aws"]["bucket"],
-)
+# pandas_to_s3_csv(
+#     df=df,
+#     conn_params=S3_CONFIGS["aws"],
+#     bucket_name=S3_CONFIGS["aws"]["bucket"],
+# )

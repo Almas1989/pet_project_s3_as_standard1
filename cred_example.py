@@ -8,10 +8,10 @@ s3_selectel_endpoint="s3.ru-7.storage.selcloud.ru"
 s3_selectel_access=""
 s3_selectel_secret=""
 
-s3_minio_bucket_name=""
+s3_minio_bucket_name="test"
 s3_minio_endpoint="localhost:9000"
-s3_minio_access_key=""
-s3_minio_secret_key=""
+s3_minio_access_key="5jtqrWjZ6EofT2PDL0Xu"
+s3_minio_secret_key="O8lUQqCDTO9gKOrLXShOa7L1f3zGTVGoA7SRiqST"
 
 s3_aws_bucket_name=""
 s3_aws_endpoint="s3.amazonaws.com"

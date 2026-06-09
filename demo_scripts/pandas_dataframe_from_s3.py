@@ -6,17 +6,17 @@ pandas_read_csv_from_s3(
     bucket_name=S3_CONFIGS["minio"]["bucket"],
 )
 
-pandas_read_csv_from_s3(
-    conn_params=S3_CONFIGS["selectel"],
-    bucket_name=S3_CONFIGS["selectel"]["bucket"],
-)
+# pandas_read_csv_from_s3(
+#     conn_params=S3_CONFIGS["selectel"],
+#     bucket_name=S3_CONFIGS["selectel"]["bucket"],
+# )
 
-pandas_read_csv_from_s3(
-    conn_params=S3_CONFIGS["vk"],
-    bucket_name=S3_CONFIGS["vk"]["bucket"],
-)
+# pandas_read_csv_from_s3(
+#     conn_params=S3_CONFIGS["vk"],
+#     bucket_name=S3_CONFIGS["vk"]["bucket"],
+# )
 
-pandas_read_csv_from_s3(
-    conn_params=S3_CONFIGS["aws"],
-    bucket_name=S3_CONFIGS["aws"]["bucket"],
-)
+# pandas_read_csv_from_s3(
+#     conn_params=S3_CONFIGS["aws"],
+#     bucket_name=S3_CONFIGS["aws"]["bucket"],
+# )
